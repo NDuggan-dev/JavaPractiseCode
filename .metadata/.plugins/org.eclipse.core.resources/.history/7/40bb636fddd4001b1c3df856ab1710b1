@@ -1,0 +1,46 @@
+package com.qa.conditionals;
+
+public class EnhancedForLoops {
+
+	public static void main(String[] args) {
+		//
+		String[] sArray = {"Si", "Crouchy", "Niall"};
+		String[] nArray = {"Niall", "Dean"};
+		printArray(sArray);
+		printArray(nArray);
+		
+	}
+		
+		public static void printArray(String[] stringArray) {
+			for(String str : stringArray) {
+				System.out.println(str);
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+//		for(String s : sArray) {
+//			System.out.println(s);
+//		}
+//		
+//		int[] iArray = new int[20]; 
+//		int k = 1;
+//		for(int i = 0; i < iArray.length; i++) {
+//			iArray[i] = k;
+		
+}

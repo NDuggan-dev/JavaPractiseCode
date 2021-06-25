@@ -1,0 +1,16 @@
+package com.qa.conditionals;
+
+public class teamTask {
+
+	public static void main(String[] args) {
+		int i = 1;
+		label:
+		if(i<=3000) {
+			System.out.println("Team 4");
+			i++;
+			break label;
+		}
+	}
+	
+	
+}

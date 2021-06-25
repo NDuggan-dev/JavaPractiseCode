@@ -1,0 +1,15 @@
+package com.qa.conditionals;
+
+public class ArrayLists {
+
+	public static void main(String[] args) {
+		int[] tenValueArray = new int[10];
+		
+		for(int i = 0; i < tenValueArray.length; i++) {
+			
+			tenValueArray[i] = 1;
+		}
+	}
+	
+
+}

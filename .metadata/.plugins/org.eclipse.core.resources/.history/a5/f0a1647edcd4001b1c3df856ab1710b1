@@ -1,0 +1,15 @@
+package com.qa.conditionals;
+
+public class EnhancedForLoops {
+
+	public static void main(String[] args) {
+		//
+		String[] sArray = {"Simon", "Megan", "Niall"};
+		
+		for(String s : sArray) {
+			System.out.println(s);
+		}
+
+	}
+	
+}

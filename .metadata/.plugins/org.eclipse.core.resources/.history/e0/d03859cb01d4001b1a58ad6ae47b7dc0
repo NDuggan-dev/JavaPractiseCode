@@ -1,0 +1,16 @@
+package com.qa.helloworld;
+
+public class Results {
+	public static void main(String[] args) {
+		int biologyResult;
+		int chemistryResult;
+		int physicsResult;
+		results(75, 25, 30);
+	}
+	
+	public static void results(int bioResult, int chemResult, int phyResult) {
+		System.out.println("Biology result " + bioResult + "/150" );
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.qa.conditionals;
+
+public class Flowcharts {
+
+	public static void main(String[] args) {
+		aLoop();
+		aLoopTwo();
+	}
+
+	public static void aLoop() {
+		for(int a = 100; a <= 200; a++) {
+			System.out.println("A");
+		}
+	}
+	
+	public static void aLoopTwo() {
+		for(int a = 100; a <= 200; a++) {
+			if(a % 2 == 0) {
+				System.out.println("-");
+			}else {
+				System.out.println("*");
+			}
+			a++;
+		}
+	}
+}

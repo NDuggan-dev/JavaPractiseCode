@@ -1,0 +1,45 @@
+package com.qa.helloworld;
+
+public class Conditionals {
+
+	public static void main(String[] args) {
+		int bioResult = 100;
+		int chemResult = 120;
+		int physResult = 130;
+		calculatorRevisited(1,3);
+		percentage(results(bioResult, chemResult, physResult));
+		
+		
+
+	}
+
+	private static void calculatorRevisited(double value1, double value2) {
+		if(value1 < value2) {
+			System.out.println(value1/value2);
+		}
+	}
+	
+	public static int results(int bioResult, int chemResult, int phyResult) {
+		System.out.println("Biology result " + bioResult + "/150" );
+		System.out.println("Chemistry result " + chemResult + "/150" );
+		System.out.println("Physics result " + phyResult + "/150" );
+		int totalMark = (phyResult + bioResult + chemResult);
+		System.out.println("Total Mark " + totalMark + "/450" );
+		return totalMark;
+	}
+	
+	public static void percentage(int totalMark) {
+		double doubleTotalMark = totalMark;
+		double percent = (doubleTotalMark/450)*100;
+		int iPercent = (int) Math.round(percent);
+		
+		if(iPercent >= 60) {
+		
+	}	else {
+		System.out.println("Overall percent: " + iPercent + "%" + " better luck next time loser");
+		}
+		
+	}
+	
+	
+}

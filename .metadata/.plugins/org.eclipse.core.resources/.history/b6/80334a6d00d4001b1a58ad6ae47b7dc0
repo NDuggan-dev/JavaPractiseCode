@@ -1,0 +1,14 @@
+package com.qa.helloworld;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println(printMessage());
+		
+	}
+
+
+public static String printMessage() {
+	return "Hello World";
+}
+
+}

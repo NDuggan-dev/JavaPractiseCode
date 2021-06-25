@@ -1,0 +1,27 @@
+package com.qa.conditionals;
+
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class ArrayLists {
+
+	public static void main(String[] args) {
+		List<String> meat = new ArrayList();
+		meat.add("Chicken");
+		meat.add("Duck");
+		meat.add("Beef");
+		meat.add("Steak");
+		
+		System.out.println(meat);
+		
+		for(int i = 0; i < meat.size(); i++) {
+			System.out.println(meat.get(i));
+		}
+		
+		for(String m : meat) {
+			System.out.println(m);
+		}
+	}
+
+}

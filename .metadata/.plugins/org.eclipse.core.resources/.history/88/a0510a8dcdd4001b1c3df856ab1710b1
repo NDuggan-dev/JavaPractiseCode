@@ -1,0 +1,43 @@
+package com.qa.conditionals;
+
+public class ArrayLists {
+	
+	public static void main(String[] args) {
+		
+		//Create an array that will hold 10 integer values
+		int[] tenValueArray = new int[10];
+		
+		//Populate the array with values
+		tenValueArray[0] = 1;
+		tenValueArray[1] = 5;
+		
+		
+		
+		for(int i : tenValueArray) {
+			System.out.println(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		for(int i = 0; i < tenValueArray.length; i++) {
+//			tenValueArray[i] = 1;
+//		}
+//		
+//		for(int i : tenValueArray) {
+//			System.out.println(i);
+//		}
+		
+		
+	}
+	
+
+}

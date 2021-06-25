@@ -1,0 +1,14 @@
+package com.qa.conditionals;
+
+public class Conditionals {
+
+	private static void main(String[] args) {
+		divide(1,2);
+	}
+	
+	private static void divide(double value1, double value2) {
+		if(value1 < value2) {
+			System.out.println(value1/value2);
+		}
+	}
+}

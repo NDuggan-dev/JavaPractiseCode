@@ -1,0 +1,14 @@
+package com.qa.conditionals;
+
+public class Flowcharts {
+
+	public static void main(String[] args) {
+		aLoop();
+	}
+
+	public void aLoop() {
+		for(int a = 100; a < 200; a++) {
+			System.out.println("A");
+		}
+	}
+}

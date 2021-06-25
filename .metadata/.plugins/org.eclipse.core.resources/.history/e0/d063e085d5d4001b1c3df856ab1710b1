@@ -1,0 +1,44 @@
+package com.qa.conditionals;
+
+public class ArrayLists {
+	
+	public static void main(String[] args) {
+		
+		//Create an array that will hold 10 integer values
+		int[] tenValueArray = new int[10];
+		
+		//Populate the array with values
+		tenValueArray[0] = 1;
+		tenValueArray[1] = 5;
+		tenValueArray[2] = 15;
+		tenValueArray[3] = 15;
+		tenValueArray[4] = 15;
+		tenValueArray[5] = 15;
+		tenValueArray[6] = 15;
+		tenValueArray[7] = 15;
+		tenValueArray[8] = 15;
+		tenValueArray[9] = 15;
+		
+		//for every object in the array
+		for(int i : tenValueArray) {
+			//print each element
+			System.out.println(i);
+		}
+				
+		
+		//for loop populating integer array
+		for(int i = 0; i < tenValueArray.length; i++) {
+			tenValueArray[i] = 5;
+			System.out.println(tenValueArray[i]);
+		}
+		
+		for(int i = 0; i < tenValueArray.length; i++) {
+			tenValueArray[i] = tenValueArray[i] * 10;
+		}
+		//for every object in the array
+		for(int i : tenValueArray) {
+			//print each element
+			System.out.println(i);
+		}
+	}
+}
